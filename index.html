@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IronFit Academia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="inicio">
+      <section class="menu">
+        <img src="assets/img/logo.png" alt="logotipo-academia" />
+        <nav>
+          <ul type="none">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#estrutura">Estrutura</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </section>
+      <div class="banner">
+        <div class="content-banner">
+          <h1>Treine no seu ritmo, alcance seus objetivos.</h1>
+          <p>
+            Na IronFit, você encontra treinos personalizados, estrutura moderna
+            e acompanhamento profissional para alcançar o corpo e a saúde que
+            deseja.
+          </p>
+          <a href="">Conheça nossos planos</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="quem-somos" id="sobre">
+      <section class="text-qs">
+        <h2>Quem Somos</h2>
+        <p>
+          A IronFit Academia nasceu para transformar vidas através da atividade
+          física. Nossa missão é oferecer treinos de qualidade, em um ambiente
+          seguro, moderno e motivador, ajudando nossos alunos a atingirem suas
+          metas com saúde e desempenho.
+        </p>
+      </section>
+
+      <section class="text-qs">
+        <h3>Visão</h3>
+        <p>
+          Promover saúde, bem-estar e evolução contínua para todos os nossos
+          alunos.
+        </p>
+      </section>
+
+      <section class="text-qs">
+        <h3>Valores</h3>
+        <ul type="none">
+          <li>Dedicação aos alunos</li>
+          <li>Resultados reais e mensuráveis</li>
+          <li>Ambiente positivo e inclusivo</li>
+        </ul>
+      </section>
+    </main>
+
+    <section id="estrutura" class="estrutura">
+      <h2>🏋️ Nossa Estrutura</h2>
+      <p>
+        Contamos com uma infraestrutura moderna para proporcionar o melhor em
+        desempenho, conforto e motivação.
+      </p>
+
+      <div class="galeria-estrutura">
+        <div class="item">
+          <img src="assets/img/musculacao.jpg" alt="Área de Musculação" />
+        </div>
+        <div class="item">
+          <img src="assets/img/area-coletiva.jpg" alt="Aulas Coletivas" />
+        </div>
+        <div class="item">
+          <img src="assets/img/funcional.jpg" alt="Espaço Funcional" />
+        </div>
+        <div class="item">
+          <img src="assets/img/vestiario.jpg" alt="Vestiários Modernos" />
+        </div>
+        <div class="item">
+          <img src="assets/img/cardio.jpg" alt="Área Cardio" />
+        </div>
+        <div class="item">
+          <img src="assets/img/climatizado.jpg" alt="Ambiente Climatizado" />
+        </div>
+      </div>
+    </section>
+
+    <section class="planos" id="planos">
+      <h4>🏋️ Nossos Planos</h4>
+      <p>
+        Encontre o plano ideal para sua rotina e alcance seus objetivos de forma
+        prática e acessível.
+      </p>
+
+      <section class="tabela-precos">
+        <table>
+          <tr class="cabecalho">
+            <td>Plano</td>
+            <td>Benefícios Principais</td>
+            <td>Ideal Para</td>
+            <td>Investimento</td>
+          </tr>
+          <tr>
+            <td>Mensal</td>
+            <td>
+              <ul type="none">
+                <li>✅ Flexibilidade sem contrato</li>
+                <li>✅ Acesso livre a todos os treinos</li>
+                <li>✅ Cancelamento fácil</li>
+              </ul>
+            </td>
+            <td>Quem busca liberdade e não quer se prender a longo prazo</td>
+            <td>
+              R$120 <br />
+              Mensais
+            </td>
+          </tr>
+          <tr>
+            <td>Semestral</td>
+            <td>
+              <ul type="none">
+                <li>✅ Melhor custo que o mensal</li>
+                <li>✅ Compromisso com seus resultados</li>
+                <li>✅ Plano mais consistente</li>
+              </ul>
+            </td>
+            <td>Quem deseja disciplina e economia</td>
+            <td>
+              R$ 699,00 <br />
+              (em até 6 vezes)
+            </td>
+          </tr>
+          <tr>
+            <td>Anual</td>
+            <td>
+              <ul type="none">
+                <li>✅ Melhor custo-benefício</li>
+                <li>
+                  ✅ Benefícios exclusivos (descontos em personal, workshops,
+                  etc.)
+                </li>
+                <li>✅ Resultados garantidos com constância</li>
+              </ul>
+            </td>
+            <td>Quem leva a sério sua evolução e quer exclusividade</td>
+            <td>
+              R$ 1.099,00 <br />
+              (em até 12 vezes)
+            </td>
+          </tr>
+        </table>
+      </section>
+    </section>
+    <section class="contato" id="contato">
+      <div class="conteiner-contato">
+        <h4>Pra que deixar para depois, se você pode começar hoje mesmo?</h4>
+        <form
+          action="https://formsubmit.co/medeiros.igor10@hotmail.com"
+          method="POST"
+        >
+          <!-- Redireciona para outra página após o envio -->
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/" />
+
+          <label for="nome">Informe seu nome completo:</label>
+          <input type="text" name="nome" placeholder="Seu nome" required />
+
+          <label for="email">Informe seu email</label>
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+
+          <label for="telefone">Informe seu contato:</label>
+          <input
+            type="tel"
+            name="telefone"
+            id="telefone"
+            placeholder="(DDD) 99999-9999"
+            pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
+            required
+          />
+
+          <label for="mensagem">Deixe sua mensagem:</label>
+          <textarea
+            name="mensagem"
+            placeholder="Sua mensagem"
+            required
+          ></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <a href="#inicio">Início</a> | <a href="#sobre">Sobre</a> |
+        <a href="#planos">Planos</a> | <a href="#estrutura">Estrutura</a> |
+        <a href="#contato">Contato</a>
+      </div>
+      <div>
+        Endereço: Endereço: Av. Movimento, 456 – São Paulo – SP | Telefone: (11)
+        98888-8888 | E-mail: contato@ironfit.com
+      </div>
+      <div><p>© 2025 IronFit Academia. Todos os direitos reservados.</p></div>
+    </footer>
+  </body>
+</html>
